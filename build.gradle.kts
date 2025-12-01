@@ -33,6 +33,8 @@ dependencies {
 	implementation("io.github.resilience4j:resilience4j-ratelimiter:2.2.0")
 	implementation("io.github.resilience4j:resilience4j-reactor:2.2.0")
 
+	implementation("io.micrometer:micrometer-registry-prometheus")
+
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("io.github.microutils:kotlin-logging-jvm:3.0.5")
 	implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
